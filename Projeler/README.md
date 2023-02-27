@@ -8,5 +8,5 @@
 <p>-Login Register</p>
 <p>-Chat</p>
 <hr>
-<h2><a href="Dosya Yükleme Deneme Test">Dosya Yükleme Deneme Test</a></h2>
+<h2><a href="Dosya%20Yükelme%20Deneme%20Test">Dosya Yükleme Deneme Test</a></h2>
 <p>-Ana sitede ki dosya yüklemenin css i düzgün olmayan test hali</p>
