@@ -3,6 +3,6 @@
 -Hava Durumu
 -Dosya Yükleme Silme
 -Login Register
-<img src="images/1.jpg">
-<img src="images/2.jpg">
-<img src="images/3.jpg">
+<img style="width:%33;" src="images/1.jpg">
+<img style="width:%33;" src="images/2.jpg">
+<img style="width:%33;" src="images/3.jpg">
