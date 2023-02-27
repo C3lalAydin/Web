@@ -1,0 +1,23 @@
+li:first-child {
+  background-color: aqua;
+}
+/* 1 tane çift nokta varsa sözde sınıftır
+ilk li yi seçer*/
+
+div:first-child {
+  background-color: crimson;
+}
+/*Body nin altındaki ilk etikete bakacak
+eğer etiket div ise çalışacak değilse çalışmayacak*/
+
+li:last-child {
+  background-color: yellow;
+}
+/*son li yi seçer*/
+
+p:last-child {
+  background-color: crimson;
+}
+/*Son Paragrafı seçer
+Body içerisine bakar body içerisindeki son etiket
+paragraf ise seçer değilse hiç bir şey seçemez*/

@@ -1,0 +1,9 @@
+abbr:not([title]) {
+    background-color: darkcyan;
+}
+/*abbr etiketinin içinde title olmayanı seçer*/
+
+li:empty {
+    display: none;
+}
+/*Li nin içi tamamen boş ise siler*/

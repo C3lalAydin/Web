@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'morning_breezeregular';
+    src: url('../font/morningbreeze-webfont.woff2') format('woff2'), url('../font/morningbreeze-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'drawingrainbowregular';
+    src: url('../font/drawingrainbow-webfont.woff2') format('woff2'), url('../font/drawingrainbow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.duz-font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #000032;
+    /*background-color: darkslateblue;*/
+    /*background-image: url("../img/bg.jpg");*/
+    /*background-repeat: repeat;*/
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'morning_breezeregular';
+    z-index: -5;
+}
+
+.containerr {
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.ortala {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ortala .card {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    border: 0;
+}
+
+.logo {
+    margin-top: 3rem;
+}
+
+.link {
+    font-size: 20px;
+    font-family: "drawingrainbowregular";
+    text-decoration: none;
+    color: rgb(0, 150, 250);
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+.link:focus,
+.link:hover {
+    color: #fff;
+}
+
+.link:focus:after,
+.link:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.link::after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+.text_input {
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: #fff 2px solid;
+    background-color: transparent;
+    transition: all 500ms;
+    position: relative;
+    color: #fff;
+    width: 250px;
+    display: inline;
+}
+
+.text_input:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    color: #fff;
+    border: #fff 2px solid !important;
+    background-color: transparent;
+}
+
+.text_input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+}
+
+.text_input:focus::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    /* Firefox */
+}
+
+.text_input:hover {
+    /*background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;*/
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.text_input:hover::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.text_input:-webkit-autofill,
+.text_input:-webkit-autofill:hover,
+.text_input:-webkit-autofill:focus,
+.text_input:-webkit-autofill:active {
+    -webkit-transition-delay: 99999s;
+    transition-delay: 99999s;
+}
+
+.button {
+    background-color: rgb(0, 108, 250);
+    margin-top: 20px;
+    padding: 0 10%;
+    line-height: 40px;
+    border-radius: 15px;
+    color: #fff;
+    border: 2px solid rgb(14, 116, 216);
+    transition: all 500ms;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: rgb(118, 24, 206);
+    border: 2px solid rgb(104, 32, 172);
+    transform: translateY(5px);
+}
+
+.input_label_kullaniciad {
+    transform: scale(1) translate(1.4rem, -4.35rem);
+    display: inline;
+    color: white;
+    background-color: #000032;
+    z-index: 99;
+    position: absolute;
+}
+
+.input_label_sifre {
+    transform: scale(1) translate(1.4rem, 0.7rem);
+    display: inline;
+    color: white;
+    background-color: #000032;
+    z-index: 99;
+    position: absolute;
+}

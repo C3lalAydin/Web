@@ -1,0 +1,15 @@
+:focus {
+    outline: none;
+}
+
+input:invalid {
+    background-color:brown;
+}
+input:valid {
+    background-color: chartreuse;
+}
+
+input[type="text"] {
+    border: 2px solid black;
+    border-radius: 50px;
+}

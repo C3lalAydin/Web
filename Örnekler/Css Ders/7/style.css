@@ -1,0 +1,9 @@
+div:first-of-type {
+  background-color: yellow;
+}
+/*Divler Arasından İlk divi seçer*/
+
+div:last-of-type {
+  background-color: aqua;
+}
+/*Divler Arasından Son divi seçer*/

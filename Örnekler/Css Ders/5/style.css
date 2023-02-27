@@ -1,0 +1,53 @@
+.kutu::after {
+  content: "Divdir";
+  color: darkred;
+}
+/*Sözde Öğeler başında 2 tane çift nokta olur
+Divden sonra content ile "Divdir" ekledik*/
+
+.kutu::before {
+  content: "Bu";
+  color: blue;
+}
+
+.Prgrf::after {
+  content: attr(data-sonrasi);
+  color: darkred;
+}
+
+/*attr()  Niteliğin içindeki değeri alıp contentlemeyi sağlar*/
+
+.Prgrf::before {
+  content: attr(data-oncesi);
+  color: blue;
+}
+
+.css-nedir::first-letter {
+  font-size: 50px;
+}
+/* ::first-letter Yazının ilk harfini seçer */
+
+.css-nedir::first-line{
+  background: lightgreen;
+}
+/*İlk Satırı Seçer*/
+
+::selection {
+  background: aqua;
+}
+/* selection Mouse imleci ile seçtiğimiz yeri
+özelleştirmemizi sağlar*/
+
+h2::selection {
+  background: firebrick;
+}
+
+input::placeholder {
+  color: darkred;
+}
+ /* ::placeholder ile placeholder ların renigini
+ değiştirebiliriz*/
+
+ textarea::placeholder {
+   color: cornflowerblue;
+ }

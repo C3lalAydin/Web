@@ -1,0 +1,16 @@
+:focus {
+    outline: none;
+}
+
+button:focus {
+    background-color: chartreuse;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+input[type="text"]:focus {
+    background-color: chartreuse;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+

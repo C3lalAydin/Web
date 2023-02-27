@@ -1,0 +1,22 @@
+body {
+    height: 4000px;
+}
+
+.kutu {
+    width: 100%;
+    height: 100%;
+    
+}
+.baslik {
+    background-color: brown;
+    padding: 20px;
+    margin: 0;
+    position: sticky;
+    top: 0px;
+}
+
+.basa_don {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}

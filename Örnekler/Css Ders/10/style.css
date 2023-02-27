@@ -1,0 +1,16 @@
+div:nth-last-child(1) {
+  background-color: aqua;
+}
+/*Sondan 1. Eleman Div ise Çalışır Değilse Çalışmaz*/
+
+div:nth-last-of-type(1) {
+  background-color: aqua;
+}
+/*Divler Arasından Sondan 1. yi seçer*/
+
+.baslik{
+  margin: 20px 0px 20px 190px
+}
+/*Yazının Çevresine Boşluk verir
+Sıra Üst , Sağ , Alt , Sol diye gider
+Saat yönündedirs*/

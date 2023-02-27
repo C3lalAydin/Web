@@ -1,0 +1,50 @@
+html,body {
+    height: 100%;
+}
+
+
+.footer {
+    background-color: aquamarine;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.son-mesaj {
+    height: 100px;
+}
+
+.header {
+    background-color: aqua;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.mesaj{
+    position: relative;
+}
+
+.saat {
+    position: absolute;
+    font-size: 10px;
+    bottom: 0;
+    margin-left: 10px;
+
+}
+
+.mesaj-grup h6 span {
+    border-bottom: 3px solid pink;
+    
+}
+
+.mesaj-grup .mesaj {
+    border-left: 2px solid blueviolet;
+    margin-top: 15px;
+}
+
+.mesaj-grup .mesaj p {
+    margin-left: 10px;    
+}

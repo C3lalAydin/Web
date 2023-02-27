@@ -1,0 +1,20 @@
+[
+    {
+        "ad": "Celal",
+        "soyad": "Aydın",
+        "yas": "15",
+        "giriscikistarih": "05/07/2021 - 11/03/2022"
+    },
+    {
+        "ad": "Ahmet",
+        "soyad": "Yıldırım",
+        "yas": "42",
+        "giriscikistarih": "23/05/2021 - 18/09/2022"
+    },
+    {
+        "ad": "Mehmet",
+        "soyad": "Yıldız",
+        "yas": "30",
+        "giriscikistarih": "16/12/2021 - 10/11/2022"
+    }
+]

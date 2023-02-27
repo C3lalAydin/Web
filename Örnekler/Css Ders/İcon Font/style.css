@@ -1,0 +1,105 @@
+    body {
+        text-align: center;
+        background-color: #222831;
+    }
+    
+    @font-face {
+        font-family: 'iconfont';
+        src: url('font/iconfont.eot?10919988');
+        src: url('font/iconfont.eot?10919988#iefix') format('embedded-opentype'), url('font/iconfont.woff2?10919988') format('woff2'), url('font/iconfont.woff?10919988') format('woff'), url('font/iconfont.ttf?10919988') format('truetype'), url('font/iconfont.svg?10919988#iconfont') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Supermercado One';
+        src: url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+    }
+    
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before {
+        font-family: "iconfont";
+        font-style: normal;
+        font-weight: normal;
+        display: inline-block;
+        width: 1em;
+        margin-right: .2em;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .icon-comment:before {
+        content: '\e800';
+    }
+    
+    .icon-search:before {
+        content: '\e801';
+    }
+    
+    .comment {
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+        border: #8e05c2 solid 2px;
+        background-color: white;
+        color: #8e05c2;
+        transition-property: all;
+        transition-duration: 500ms;
+        margin-top: 20px;
+    }
+    
+    .comment:hover {
+        transform: scale(1.2);
+        background-color: #8e05c2;
+        color: white;
+    }
+    
+    .ara {
+        display: inline-block;
+        width: 70%;
+        height: 25px;
+        border-radius: 20px;
+        border: #8e05c2 2px solid;
+        font-family: FontAwesome;
+        transition: transform 500ms;
+    }
+    
+    .ara:focus {
+        outline: none;
+        transform: scale(1.1);
+    }
+    
+    .Search {
+        font-family: FontAwesome;
+    }
+    
+    .arat {
+        margin: 30px;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        border-radius: 20px;
+        border: #8e05c2 2px solid;
+        font-family: FontAwesome;
+        background-color: white;
+        color: #8e05c2;
+        transition: all 500ms;
+    }
+    
+    .arat:hover {
+        background-color: #8e05c2;
+        color: white;
+        transform: scale(1.1);
+    }
+    
+    .comments {
+        font-family: 'Supermercado One';
+    }
+    
+    .box {
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }

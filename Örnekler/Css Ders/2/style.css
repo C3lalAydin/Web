@@ -1,0 +1,7 @@
+h3 ~ p{  /*h3 ün altındaki bütün paragrafları seçer*/
+  color: chartreuse;
+}
+
+ul li.li3 + li { /*Listenin Classı li3 olan maddeden sonraki maddeyi seçer*/
+  color: rebeccapurple;
+}

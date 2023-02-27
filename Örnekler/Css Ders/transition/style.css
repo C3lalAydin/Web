@@ -1,0 +1,70 @@
+::selection {
+    background-color: firebrick;
+}
+
+a {
+    margin: 20px;
+    background-color: brown;
+    transition-duration: 500ms;
+    /*İşlem Süresi 500ms Yani Yarım Saniye*/
+    /* transition-delay: 1s;  1 Saniye Beklemek Süresi */
+    transition-property: background-color;
+    /* transition ı background-color a uygula */
+}
+
+a:hover {
+    background-color: chartreuse;
+}
+
+div {
+    margin-top: 20px;
+    height: 70px;
+    width: 0%;
+    transition-duration: 1s;
+    transition-property: width;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.skyblue {
+    background-color: deepskyblue;
+}
+
+.red {
+    background-color: firebrick;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+div:hover {
+    width: 80%;
+}
+
+div+span {
+    position: absolute;
+    right: 20px;
+}
+
+.btn {
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0);
+    color: deepskyblue;
+    border-radius: 10px;
+    border: deepskyblue solid 2px;
+    display: block;
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+
+.btn:hover {
+    color: white;
+    background-color: deepskyblue;
+    transform: translateY(-10px);
+    ;
+}
+
+.btn::selection {
+    background-color: black;
+}

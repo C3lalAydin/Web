@@ -1,0 +1,30 @@
+.yazi {
+  color: red;
+}
+.bold {
+  font-weight: bold;
+}
+.yazi.bold {
+  color: blue;
+}
+p.mor {
+  color: purple;
+}
+div * {   /* Div Etiketinin içindeki Bütün Etiketleri Seçmek için * Kullanılır */
+  color: darkcyan;
+}
+div .span1{ /* Div Etiketinin İçindeki span1 Classını seçiyor*/
+  color: green;
+}
+p > b{   /*Çocuk Seçicide Bir üsteki Etiket P Olursa Çalışır*/
+  color: maroon;
+}
+p > i{
+  color: yellowgreen
+}
+h2 + p {  /*h2 den sonra gelen paragrafı seç*/
+  color: darksalmon;
+}
+P + div span { /*P den sonra gelen div etiketinin içindeki span etiketi*/
+  color: darkturquoise;
+}

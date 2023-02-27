@@ -1,0 +1,19 @@
+div:nth-child(3) {
+  background-color: aqua;
+}
+/* 3.eleman div olmadığı için çalışmaz*/
+
+div:nth-of-type(3) {
+  background-color: aqua;
+}
+/*Divler Arasından 3. div i seçer*/
+
+li:nth-last-child(1) {
+  background-color: yellow;
+}
+/*Sondan 1. Elamanı Seçer*/
+
+li:nth-last-child(-n+3) {
+  background-color: yellow;
+}
+/*Son 3 Elemanı Seçer*/

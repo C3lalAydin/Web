@@ -1,0 +1,31 @@
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: .25s all;
+}
+input[type="checkbox"]::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    border-radius: 50%;
+    opacity: 0;
+    transition: .25s all;
+}
+input[type="checkbox"]:checked {
+    border-color: blueviolet;
+}
+
+input[type="checkbox"]:checked::before {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}

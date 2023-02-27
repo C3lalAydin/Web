@@ -1,0 +1,70 @@
+html,body {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+html,body::-webkit-scrollbar-thumb {
+    background: blueviolet;
+    border-radius: 20px;
+}
+
+html,body::-webkit-scrollbar {
+    background: transparent;
+    height: 6px;
+}
+
+html,body::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+nav {
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    padding: 15px;
+    line-height: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a:hover {
+    color: chartreuse;
+}
+
+section {
+    height: calc(100vh - 50px);
+    scroll-margin-top: 50px;
+}
+
+#home {
+    background-color: steelblue;
+}
+
+#about {
+    background-color: lightsalmon;
+}
+
+#contact {
+    background-color: brown;
+}
+
+.yukari {
+    line-height: 50px;
+    bottom: 25px;
+    right: 20px;
+    position: fixed;
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    color: blueviolet;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 500ms;
+}
+
+.yukari:hover {
+    background-color: blueviolet;
+    color: #fff;
+}

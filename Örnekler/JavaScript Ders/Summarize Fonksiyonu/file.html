@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Ders</title>
+  </head>
+  <body>
+
+
+    <script>
+
+      function ozet(cumle,maxkarakter) {
+        var cumleozet= [];
+        if (maxkarakter>cumle.lenght) {
+          return cumle;
+        }else {
+          var kelimeler=cumle.split(" ");
+          var toplamkarakter=0;
+          for (var i=0;i<kelimeler.lenght;i++){
+            cumleozet.unshift(kelimeler[i]);
+            toplamkarakter+=kelimeler[i].lenght;
+            if (toplamkarakter>maxkarakter) {
+              break;
+            }
+          }
+
+        }
+        return cumleozet;
+      }
+
+       var cumle="JavaScript, yaygın olarak web tarayıcılarında kullanılmakta olan dinamik bir programlama dilidir";
+       console.log(ozet(cumle,20));
+
+
+
+    </script>
+
+  </body>
+</html>

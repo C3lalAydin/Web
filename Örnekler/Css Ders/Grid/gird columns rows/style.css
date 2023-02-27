@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+}
+
+.grid-container {
+    background-color: cadetblue;
+    padding: 20px;
+    display: grid;
+    /*grid-template-columns: auto auto auto auto;     Sütünları eşit şekilde 4'e ayırır*/
+    /*grid-template-columns: repeat(4, auto);         Üstekinin aynısı*/
+    /*grid-template-columns: 200px 150px auto 100px;  item 1,2 ve 4 den sonra kalan boş alanı item 3'e verir */
+    /*grid-template-columns: 3fr 5fr 25fr 7fr;        Alanı kendi içinde bölüp fr ile her sütün a dağıtıyoruz
+            3/(3+5+25+7) item 1'in fr dır*/
+    grid-template-columns: repeat(3, 1fr);
+
+
+    
+    grid-template-rows: 1fr 3fr;
+    grid-auto-rows: 2fr;
+    
+/*
+    item 1'e 1fr  item 2'e 3 fr kalan bütün satırlara 2fr yükseklik verir
+*/
+
+}
+
+.item {
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 20px;
+}

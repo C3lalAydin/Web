@@ -1,0 +1,26 @@
+div[class|="box"] {
+  background: aqua;
+}
+/* | işareti ile classın adı box ile başlayanları
+seçer.box sonda olursa veya birleşik olursa seçmez*/
+
+div[class^="box"]{
+  background: aqua;
+}
+/* ^ İşareti ile box ile başlayan bütün classları seçer.*/
+
+div[class$="box"]{
+  background: yellow;
+}
+/* $ İşareti ile box ile biten bütün classları seçer*/
+div[class*="yazi"]{
+  background: lawngreen;
+}
+/* * İşareti ile class isminin içinde yazi olan bütün
+ classları seçeriz*/
+
+ div[class*="yazi" i]{
+   background: lawngreen;
+ }
+ /* i ile büyük-küçük harf duyarlılığını kaldırdık*/
+ 

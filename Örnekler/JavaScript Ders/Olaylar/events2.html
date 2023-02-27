@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScrip Ders</title>
+    <style>
+      .kutu {
+        width: 120px;
+        height: 120px;
+        margin: 10px;
+        float: left;
+
+      }
+
+      #mavi {
+        background-color: blue;
+      }
+      #kirmizi {
+        background-color: red;
+      }
+      #yesil {
+        background-color: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="mavi" class="kutu"></div>
+    <div id="kirmizi" class="kutu"></div>
+    <div id="yesil" class="kutu"></div>
+
+    <script type="text/javascript">
+
+        var kutular=document.querySelectorAll(".kutu");
+
+        kutular.forEach(function(item){
+            item.addEventListener("click",function(){
+                item.style.display="none"
+            });
+        });
+
+        /*
+        var kirmizi=document.querySelector("#kirmizi");
+        var mavi=document.querySelector("#mavi");
+        var yesil=document.querySelector("#yesil")
+
+        mavi.addEventListener("click",function (){
+            this.style.display="none";
+         });
+        kirmizi.addEventListener("click",function (){
+            this.style.display="none";
+         });
+        yesil.addEventListener("click",function (){
+            this.style.display="none";
+         });
+         */
+        
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+span {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+div {
+    display: inline;
+    background-color: blueviolet;
+}

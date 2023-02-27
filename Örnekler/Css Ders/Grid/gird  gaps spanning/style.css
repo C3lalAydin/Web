@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+}
+.item {
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+
+
+.grid-container {
+    background-color: cadetblue;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 10px;
+
+    /*
+    column-gap: 10px;
+    row-gap: 10px;
+    */
+
+
+
+}
+
+.item1 {
+    /*
+    grid-row-start: 2;
+    grid-row-end: 4;
+    */
+    /*grid-row: 2/4;   2. Satırdan Başla 3. Satır da bitir*/
+    /*grid-row: 2/ span 2; 2. Satırdan Başla 2 İtem yer kapla*/
+
+
+    /*
+    grid-column-start: 2;
+    grid-column-end: 5;
+    */
+    /*grid-column: 2/5;  Sütündda ki 2.item'ın yerinden başla Sütündda ki 4.item'ın yerinde bitir*/
+    /*grid-column: 2/ span 3;  Sütunda ki 2. İtem'ın yerinden başla 3 item yer kapla*/
+
+    
+    grid-area: 2/2/span 2/span 3;
+    /* row-start/column-start/row-end/column-end*/
+
+}

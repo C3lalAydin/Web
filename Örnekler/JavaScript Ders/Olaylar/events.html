@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Başlık</h2>
+    <p>Bu bir Paragraftır</p>
+    <button id="colorchange">Renk Değiştir</button> <br> <br>
+    <button id="textchange">Yazı Değiştir</button>
+    <ul id="liste">
+        <li>1. Madde</li>
+        <li>2. Madde</li>
+        <li>3. Madde</li>
+        <li>4. Madde</li>
+    </ul>
+
+    <script>
+        var btn1=document.querySelector("#colorchange");
+        var btn2=document.querySelector("#textchange");
+        var h2=document.querySelector("h2");
+        var lis=document.querySelectorAll("li");
+        var p=document.querySelector("p");
+
+        btn1.addEventListener("click",changecolor)
+
+        function changecolor() {
+            var r1=Math.floor(Math.random()*255);
+            var r2=Math.floor(Math.random()*255);
+            var r3=Math.floor(Math.random()*255);
+            h2.style.color= 'rgb('+r1+', '+r2+', '+r3+')';
+            p.style.color= 'rgb('+r3+', '+r1+', '+r2+')';
+
+        }
+
+        btn2.addEventListener("click",function(){
+            p.textContent="Butona Tıklandı";
+        });
+        
+
+
+    </script>
+</body>
+</html>

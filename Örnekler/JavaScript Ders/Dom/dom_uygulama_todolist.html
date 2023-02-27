@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <title>TodoList</title>
+  </head>
+  <body>
+    <h2>TodoList Uygulaması</h2>
+    <ul id="todolist">
+      <li id="item_8" class="todoitem">
+        <input type="checkbox"> 08:00 : Uyanma
+      </li>
+      <li id="item_9" class="todoitem">
+        <input type="checkbox"> 09:00 : Kahvaltı
+      </li>
+      <li id="item_10" class="todoitem">
+        <input type="checkbox"> 10:00 : İş
+      </li>
+      <li id="item_11" class="todoitem">
+        <input type="checkbox"> 11:00 : Mesai
+      </li>
+      <li id="item_12" class="todoitem">
+        <input type="checkbox"> 12:00 : Mesai
+      </li>
+      <li id="item_13" class="todoitem">
+        <input type="checkbox"> 13:00 : Öğle Yemeği
+      </li>
+      <li id="item_14" class="todoitem">
+        <input type="checkbox"> 14:00 : Toplantı
+      </li>
+      <li id="item_15" class="todoitem">
+        <input type="checkbox"> 15:00 : Çay Molası
+      </li>
+      <li id="item_16" class="todoitem">
+        <input type="checkbox"> 16:00 : Mesai
+      </li>
+      <li id="item_17" class="todoitem">
+        <input type="checkbox"> 17:00 : İşten Ayrılış
+      </li>
+      <li id="item_18" class="todoitem">
+        <input type="checkbox"> 18:00 : Cafe
+      </li>
+      <li id="item_19" class="todoitem">
+        <input type="checkbox"> 19:00 : Cafe
+      </li>
+      <li id="item_20" class="todoitem">
+        <input type="checkbox"> 20:00 : Eve Varış
+      </li>
+      <li id="item_21" class="todoitem">
+        <input type="checkbox"> 21:00 : Televizyon
+      </li>
+      <li id="item_22" class="todoitem">
+        <input type="checkbox"> 22:00 : Hazırlık
+      </li>
+      <li id="item_23" class="todoitem">
+        <input type="checkbox"> 23:00 : Uyuma
+      </li>
+    </ul>
+
+    <script type="text/javascript">
+      /* var todolist=document.getElementById("todolist"); //todolist idsini seçer
+         todolist.style.listStyleType="none"; //listenin sitilini kaldırır        */
+
+      var date=new Date();
+      var hour=date.getHours();
+      var element;
+
+      for (var i=hour;i>=8;i--){
+        element=document.getElementById("item_"+i);
+        element.style.textDecoration="line-through";
+        element.querySelector("input").checked=true;
+      }
+
+    </script>
+
+
+  </body>
+</html>

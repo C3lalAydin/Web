@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2022 by original authors @ fontello.com</metadata>
+<defs>
+<font id="iconfont" horiz-adv-x="1000" >
+<font-face font-family="iconfont" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="comment" unicode="&#xe800;" d="M690 105c-9 0-18 3-26 9l-169 124h-278c-59 0-108 48-108 108v340c0 61 49 109 108 109h566c59 0 108-49 108-109v-340c0-60-49-108-108-108h-48v-89c0-24-21-44-45-44z m-473 663c-45 0-81-36-81-81v-341c0-45 36-82 81-82h282c3 0 6-1 8-2l173-127c3-3 7-4 10-4 9 0 18 7 18 18l0 102c0 7 6 13 13 13h62c45 0 82 37 82 82l0 341c0 45-37 81-82 81z" horiz-adv-x="1000" />
+
+<glyph glyph-name="search" unicode="&#xe801;" d="M452 298c45 0 88 15 123 43l133-133 34 34-133 133c38 48 52 110 38 169-14 59-54 109-109 135s-119 25-174-1c-54-27-94-77-107-136-14-59 1-122 39-169 38-47 95-75 156-75z m0 352c40 0 79-16 108-44 28-29 44-68 44-108s-16-79-44-107-68-45-108-45-79 16-107 45c-29 28-45 67-45 107s16 79 45 108c28 28 67 44 107 44z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

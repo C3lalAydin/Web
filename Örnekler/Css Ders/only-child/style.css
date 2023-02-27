@@ -1,0 +1,12 @@
+li:only-child {
+    background-color: cyan;
+}
+/*Ebeveynde Sadece 1 çocuk varsa onu seçer
+1'den fazla çocuk varsa seçmez*/
+
+
+.etiket div:only-of-type {
+    background-color: cyan;
+}
+/*Classı etiket olan etiketin içinde sadece 1 tane 
+div varsa onu seçer diğer etiketlere bakmaz */

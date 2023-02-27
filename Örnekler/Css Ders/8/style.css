@@ -1,0 +1,43 @@
+.liste1 li:nth-child(4) {
+  color: red;
+}
+/* 4. li yi seçer*/
+
+.liste1 li:nth-child(odd) {
+  background-color: yellow;
+}
+/* İndexi Tek sayı olanları
+seçer (index 1 den başlıyor)*/
+
+.liste1 li:nth-child(even) {
+  background-color: limegreen;
+}
+/*İndexi Çift sayı olanları
+seçer*/
+
+.liste2 li:nth-child(3n) {
+  background-color: aqua;
+}
+/*3 er 3 er elemanları seçer 3n dediğimiz için 3 den başlar
+3n+1 deseydik 1. Elemandan başlardı 3er 3er devam ederdi
+3n+2 deseydik 2. elemandan başlardı*/
+.liste2 li:nth-child(3n+2) {
+  background-color: darkred;
+}
+
+.liste3 li:nth-child(n+4){
+  background-color: cornflowerblue;
+}
+/*4. Eleman Dahil Ondan Sonraki bütün elemanları seçer*/
+
+.liste4 li:nth-child(-n+8){
+  background-color: bisque;
+}
+/*8. Eleman dahil ondan önceki bütün elemanları seçer*/
+
+.liste5 li:nth-child(n+4)/*:nth-child(even)*/:nth-child(-n+8){
+  background-color: blueviolet;
+}
+/*4 ile 8. eleman arasındaki sayıları seçer
+araya :nth-child(even) koyarsak 4 ile 8 arasındaki
+çift elemanları seçer */

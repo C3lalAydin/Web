@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Stop Bullying";
+    src: local("Stop Bullying.ttf"), url("StopBullying.ttf") format("truetype");
+    font-display: swap;
+}
+
+h2 {
+    font-family: 'Stop Bullying';
+}

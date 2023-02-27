@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+  </head>
+  <body>
+    <h1>Başlık</h1>
+    <div id="yazilar">
+      <h2><u>Yazılar</u></h2>
+      <div>
+
+        <b>Yazı</b>: Kalın Yazı <br>
+        <strong>Yazı</strong>: Kalın Ve Önemli Yazı <br>
+        <i>Yazı</i>: İtalic Yazı <br>
+        <s>Yazı</s>: Üstünü Çizme <br>
+        <u>Yazı</u>: Altı Çizili Yazı <br>
+        <small>Yazı</small>: Küçük Yazı <br>
+        <mark>Yazı</mark>: Vurgulama <br>
+        H<sub>2</sub>O: Karakteri <br>
+        5<sup>2</sup>: Üst Alma
+
+      </div>
+    </div>
+    <div id="etiketler">
+      <h2><u>Etiketler</u></h2>
+      <p>
+        <b><<b>abbr</b>></b>: Kısaltmaların Anlamlarını Gösterme <br>
+        <b><u>Örnek: </u></b> Türkçenin gelişmesi için kurulan kurulum <abbr title="Türk Dil Kurumu">TDK</abbr>'dir
+      </p>
+      <p>
+        <b><<b>q</b>></b>: Alıntı Yapma(Çift Tırnak) <br>
+        <b><u>Örnek</u></b> <br> <q>Hiç kimse duymak istemeyen biri kadar sağır olamaz.</q>
+        <br> <i>-W. Shakespear</i>
+      </p>
+      <p>
+        <b><<b>blockquote</b>></b>: Alıntı Yapma(Çıkıntı) <br>
+        <b><u>Örnek</u></b> <br>
+        Wikipedia'ya Göre Yandex;
+      </p>
+        <blockquote cite="https://en.wikipedia.org/wiki/Yandex">
+          Yandex N.V., ulaşım, arama ve bilgi hizmetleri, e-ticaret, navigasyon,
+          mobil uygulamalar ve çevrimiçi reklamcılık dahil olmak üzere 70
+          İnternet ile ilgili ürün ve hizmet sağlayan, öncelikle Rusça ve Rusça
+          dil kullanıcıları için çok uluslu bir şirkettir.
+        </blockquote>
+      <p>
+        <b><<b>a</b>></b>: Link Açma veya Sayfada hızlı şekilde gezinme <br>
+        <b><u>Örnek 1</u></b>
+        <br> Google'u Bu Sekmede Açmak İçin  <a href="https://google.com">Buraya</a> Tıklayınız,
+        Yeni Sekmede Açmak İçin <a href="https://google.com" target="_blank">Buraya</a> Tıklayınız <br>
+        <b><u>Örnek 2</u></b> <br>
+        <a href="#yazilar">Yazılara Gitmek İçin Buraya Tıklayınız</a>
+        <a href="#etiketler">Etiketlere Gitmek İçin Buraya Tıklayınız</a>
+        <a href="#listeler">Listelere Gitmek İçin Buraya Tıklayınız</a>
+      </p>
+      <p>
+          <b><<b>img</b>></b>: Resim Ekleme <br>
+          <b><u>Örnek</u></b> <br> <br>
+          <img src="html.png" alt="Resim Yüklenemedi" width="200">
+      </p>
+
+
+      <div id="tablo">
+        <h2><u>Tablolar</u></h2>
+        <p>
+            <b><<b>table</b>></b>: Tablo Açmaya Yarar <br>
+            <b><<b>tr</b>></b>: Satırları Oluşturur <br>
+            <b><<b>td</b>></b>: Sütünları Oluşturur <br>
+            <b><<b>th</b>></b>: Sütün Adlarını Oluşturmaya Yarar <br>
+            <b><<b>thead</b>></b>: Tablo Başlığı ile ilgili şeyler yazılır <br>
+            <b><<b>thbody</b>></b>: Tablo ile ilgili şeyler yazılır <br>
+            <b><<b>caption</b>></b>: Tablonun adı yazılır <br>
+            <b><u>Örnek</u></b> <br>
+            <table>
+              <caption>Ad Soad</caption>
+              <thead>
+                <tr>
+                  <th>Ad</th>
+                  <th>Soyad</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Celal</td>
+                  <td>Aydın</td>
+                </tr>
+                <tr>
+                  <td>Ali</td>
+                  <td>Can</td>
+                </tr>
+              </tbody>
+            </table>
+        </p>
+      </div>
+
+
+      <div id="listeler">
+        <h2><u>Listeler</u></h2>
+
+        <p>
+          <b><<b>ul</b>></b>: Düzensiz Liste <br>
+          <b><<b>ol</b>></b>: Düzenli Liste <br>
+          <b><<b>li</b>></b>: Listede Yeni Madde Oluşturma <br><br>
+          <b><u>Örnek ul | Düzensiz Liste</u></b>
+          <ul>
+            <li>Sabah Uyan</li>
+            <li>Elini Yüzünü Yıka</li>
+            <li>Kahvaltı Yap</li>
+          </ul>
+          <b><u>Örnek ol | Düzenli Liste</u></b>
+          <ol>
+            <li>Sabah Uyan</li>
+            <li>Elini Yüzünü Yıka</li>
+            <li>Kahvaltı Yap</li>
+          </ol>
+        </p>
+      </div>
+
+      <div id="medya">
+        <h2><u>Medya Etiketleri</u></h2>
+        <b><<b>audio</b>></b>: Ses Dosyası Ekleme <br>
+        <b><u>Örnek</u></b> <br> <br>
+        <audio controls>
+          <source src="music.mp3" type="audio/mpeg">
+        </audio>
+        <br> <br>
+        <b><<b>video</b>></b>: Video Ekleme <br>
+        <b><u>Örnek</u></b> <br> <br>
+        <video controls width="512">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+      <div id="iframe">
+        <h2><u>iframe Etiketi</u></h2>
+        <b><<b>iframe</b>></b>: Sitenin içine başka bir site ekleme <br>
+        Aşağıda Wikipedia'nın Ana Sayfasını Açmak İçin <a href="https://tr.wikipedia.org" target="iframe1">Buraya</a> Tıklayın <br>
+        Aşağıda Wikipedia'nın Html İle İlgili Sayfasını Açmak İçin <a href="https://tr.wikipedia.org/wiki/HTM" target="iframe1">Buraya</a> Tıklayın <br>
+        <b><u>Örnek</u></b> <br> <br>
+        <iframe name="iframe1" src="https://tr.wikipedia.org/wiki/HTML" width="500" height="500"></iframe>
+      </div>
+
+      <div class="">
+
+        <div id="formveinput">
+          <h2><u>Form Ve İnput</u></h2>
+          <b><<b>form</b>></b>: Kullanıcıdan bilgi/veri almak için kullanılır. <br>
+          <b><<b>input</b>></b>: Kullanıcının bilgi/veri girmesini/Eklemesini sağlar. <br>
+          <b><<b>label</b>></b>: Label Etiketi içindeki yazıya tıklandığında form kontrolleri ile etkileşime geçerek form kontrolünün seçilmesini sağlar. <br>
+
+          <b><u>Örnek</u></b> <br> <br> <br>
+          <b><u>Label Örnek</u></b> <br> <br>
+          <form action="" method="post">
+            <label for="yazı">Yazı Girme:</label> <input id="yazı" type="text"> <br>
+            <b>Yazı Girme</b>'ye Tıklandığında input text bloğunu seçer <br> <br>
+            <b><u>İnput Örnek</u></b> <br> <br>
+            Yazı Readonly: <input readonly type="text" value="Celal"> <br>
+            Sadece Okunabilir Değiştirilemez <br> <br>
+            Yazı Required: <input required type="text"> <br>
+            Burası Doldurulmadan Form Gönderilmez <br> <br>
+            Yazı Placeholder: <input placeholder="Değer Giriniz"type="text"> <br>
+            Kullanıcı buraya doldurana kadar bir yazı gösterir <br> <br>
+            Yazı Maxlenght: <input maxlength="8" type="text"> <br>
+            Maxlenght Kadar Karakter Girebilir Daha Fazla Girilemez <br> <br>
+            E-Posta: <input required type="email"> <br> <br>
+            Şifre Girme: <input type="password"> <br> <br>
+            Sayı Girme: <input required type="number" min="13" max="26"> <br>
+            Min ve Max ile ayarlandığı için 13'den küçük 26'dan büyük sayı girilmez. <br> <br>
+
+            <label>
+              CheckBox: <input type="checkbox"> Kabul Ediyorum
+            </label> <br> <br>
+            Radio Buton:
+            <label>
+              <input type="radio" name="cinsiyet"> Erkek
+            </label>
+            <label>
+              <input type="radio" name="cinsiyet"> Kadın
+            </label> <br> <br>
+            İnput İle Gönder Buton: <input type="submit" value="Gönder">
+            Form Resetleme: <input type="reset" value="Sıfırla"> <br>
+            İnput'da bir "name" değeri yoksa Gönder'e basınca değer göndermez
+          </form> <br> <br>
+
+
+          <u>Renk Seçme</u> <br>
+          <input type="color"> <br> <br>
+          <u>Tarih Seçme</u> <br>
+          <input type="date"> <br> <br>
+          <u>Saat Seçme</u> <br>
+          <input type="time"> <br> <br>
+          <u>Tarih Ve Saat Seçme</u> <br>
+          <input type="datetime-local"> <br> <br>
+          <u>Ay Seçme</u> <br>
+          <input type="month"> <br> <br>
+          <u>Hafta Seçme</u> <br>
+          <input type="week"> <br> <br>
+          <u>İnput ile Seçme Kutusu</u> <br>
+          <input list="diller">
+          <datalist id="diller">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="C#">
+            <option value="Python">
+          </datalist> <br> <br>
+          <u>Select İle Seçme Kutusu</u> <br>
+          <select name="dil">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+          </select> <br> <br>
+          <u>Search</u> <br>
+          <input type="search"> <br> <br>
+          <u>Dosya Seçme</u> <br> <br>
+          <input type="file"> <br> <br>
+          Accept ile kullanılırsa istediğimiz formatı seçer. <br>
+          Fotoğraf Seç: <input type="file" accept="image/*"> <br> <br>
+          Multiple ile kullanılırsa birden fazla dosya seçilebilir <br>
+          Dosyaları Seç: <input type="file" multiple> <br> <br>
+
+          <u>TextArea</u> <br>
+          İnput Text Gibi Değer Girilir Ama Daha Büyüktür. <br>
+          <textarea name="" rows="8" cols="80"></textarea> <br> <br>
+
+          <u>Buton</u> <br>
+          <button type="submit" name="button">Gönder</button> <br> <br>
+
+          <u>Fieldset</u> <br>
+          Gruplandırmaya Yarar <br> <br>
+          <fieldset>
+            <legend>Giriş Yapma</legend>
+            Kullanıcı Adı: <input type="text" placeholder="Kullanıcı Adı Giriniz"> <br>
+            Şifre: <input type="password" placeholder="Şifre Giriniz"> <br>
+            <button type="submit" name="button">Giriş Yap</button>
+          </fieldset>
+
+        </div>
+
+    </div>
+
+  </body>
+</html>
