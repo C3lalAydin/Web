@@ -1,8 +1,12 @@
 # Web | Projeler
 <h2>Ana Site</h2>
--Hava Durumu
--Dosya Yükleme Silme
--Login Register
-<img style="width: 33% important!;" src="images/1.jpg">
-<img style="width: 33% important!;" src="images/2.jpg">
-<img style="width: 33% important!;" src="images/3.jpg">
+<p>-Hava Durumu</p>
+<p>-Dosya Yükleme Silme</p>
+<p>-Login Register</p>
+<hr>
+<h2>Chet</h2>
+<p>-Login Register</p>
+<p>-Chat</p>
+<hr>
+<h2>Dosya Yükleme Deneme Test</h2>
+<p>-Ana sitede ki dosya yüklemenin css i düzgün olmayan test hali</p>
