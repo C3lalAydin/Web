@@ -6,10 +6,10 @@ $user = 'root';
 $pass = '';
       
 /*
-$host = 'sql303.epizy.com';
-$db   = 'epiz_31295600_login_test';
-$user = 'epiz_31295600';
-$pass = 'S5ZMNviU5F';
+$host = ' ';
+$db   = ' ';
+$user = ' ';
+$pass = ' ';
 */  
 $sql = "mysql:host=$host;dbname=$db";
 try {
